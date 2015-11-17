@@ -17,11 +17,11 @@ java -jar *.jar [-options]
 where oprions include:
 *    -browser, -b <value>     	   set browser to test - 'FIREFOX' is default. ('FIREFOX','CHROME','OPERA','SAFARI','IE')
 *    -all                          select all existing tests to execute.
-*    -groups, -g <args...> 	   specifies list of groups of tests to execute.
-*    -tests, -t <args...>  	   specifies list of tests to execute
-*    -test_list, -tl	   	   print list of existing tests
-*    -stop_on_error, -s	   	   if specified, tests will be stopper after first error
-*    -help_g, -hg		   print help message for gradle
+*    -groups, -g <args...> 	       specifies list of groups of tests to execute.
+*    -tests, -t <args...>  	       specifies list of tests to execute
+*    -test_list, -tl	   	         print list of existing tests
+*    -stop_on_error, -s	   	       if specified, tests will be stopper after first error
+*    -help_g, -hg		               print help message for gradle
 *    -help, -h                 	   print help message for jar
 
 ## Example
